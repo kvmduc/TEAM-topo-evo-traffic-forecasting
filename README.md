@@ -6,6 +6,9 @@ TEAM is a traffic forecasting framework that utilizes continual learning algorit
 
 ## Introduction
 
+<center>
+  <img src="asset/overview_framework.png" alt="drawing" width="700" height="800px">
+</center>
 
 ## Data
 
