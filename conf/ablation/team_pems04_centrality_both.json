@@ -1,0 +1,52 @@
+{
+    "begin_year": 2011,
+    "end_year": 2017,
+    "dropout": 0.0,
+    "lr": 0.01,
+    "batch_size": 32,
+    "epoch": 100,
+    "gpuid": 1,
+    "loss": "masked_mse",
+    "activation": "relu",
+    "scheduler": "epo",
+    "train": 1,
+    "y_len": 12,
+    "x_len": 12,
+
+
+    "n_heads" : 3,
+    "in_channels" : 1,
+    "K" : 3,
+    "nb_block" : 3,
+    "nb_chev_filter" : 64,
+    "nb_time_filter" : 64,
+    "num_of_hours" : 1,
+    "missing_value" :0.0,
+
+    "data_process": 0,
+    "auto_test": 1,
+    "raw_data_path": "data/PeMS4_Expand/finaldata_removed/",
+    "save_data_path": "data/PeMS4_Expand/FastData_removed/",
+    "graph_path": "data/PeMS4_Expand/graph",
+    "model_path": "res/Pems4_Expand/",
+
+    "logname": "TEAM_centrality",
+    
+
+    "strategy": "incremental",
+    "init": true,
+    "increase": true,
+    "decrease": true,
+    "num_hops": 2,
+    
+    "detect": true,
+    "detect_strategy": "centrality",
+
+    "ewc": true,
+    "ewc_strategy": "ewc", 
+    "ewc_lambda": 0.001,
+    
+    "replay": true,
+    "replay_strategy": "centrality",
+    "repaly_num_samples": 100
+}
