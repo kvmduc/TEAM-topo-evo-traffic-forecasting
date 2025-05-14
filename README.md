@@ -1,6 +1,6 @@
 # TEAM: **T**opological **E**volution-**a**ware Fra**m**ework for Traffic Forecasting
 
-Code for "**T**opological **E**volution-**a**ware Fra**m**ework for Traffic Forecasting"（VLDB 2025). 
+Code for [**TEAM**:**T**opological **E**volution-**a**ware Fra**m**ework for Traffic Forecasting](https://arxiv.org/abs/2410.19192)（PVLDB 2025). 
 
 TEAM is a traffic forecasting framework that utilizes continual learning algorithm to handle the evolution of topology of traffic road network (expanding or removing)
 
@@ -28,4 +28,18 @@ python main.py --conf conf/cast_pems04.json --gpuid 1
 To run TEAM (incremental training)
 ```
 python main.py --conf conf/team_pems04.json --gpuid 1
+```
+
+## Citation
+```
+@article{kieu2024team,
+  title={TEAM: Topological evolution-aware framework for traffic forecasting},
+  author={Kieu, Duc and Kieu, Tung and Han, Peng and Yang, Bin and Jensen, Christian S and Le, Bac},
+  journal={Proceedings of the VLDB Endowment},
+  volume={18},
+  number={2},
+  pages={265--278},
+  year={2024},
+  publisher={VLDB Endowment}
+}
 ```
